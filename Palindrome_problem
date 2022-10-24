@@ -1,0 +1,10 @@
+let str = "racecar";
+let rev_str="";
+for(let i =str.length-1;i>=0;i--){
+rev_str+=str[i];
+}
+if(rev_str==str){
+console.log(true);
+}else{
+console.log(false);
+}
